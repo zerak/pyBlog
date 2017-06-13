@@ -45,3 +45,5 @@ LoadModule authz_svn_module   modules/mod_authz_svn.so
 	`svnserve -d -r /opt/svn`
 - 浏览器访问
 	[http://server.ip/svnadmin](http://localhost/svnadmin) 默认进入登录界面,帐号密码都是admin
+	
+	> [如果服务器不能访问,则有可能是防火墙设置](CentOS防火墙之iptables.md)
